@@ -1,8 +1,8 @@
 # SurVis - Visual Literature Browser
 
-![Screenshot](/doc/survis.png)
+![Screenshot](/src/data/survis_screenshot.png)
 
-SurVis is a flexible online browser to present and analyze scientific literature. The system is made for authors of survey articles, theses, or books who want to share their references in a user-friendly way. All you need to start is a bib file and a list of keywords for your papers.
+<!-- SurVis is a flexible online browser to present and analyze scientific literature. The system is made for authors of survey articles, theses, or books who want to share their references in a user-friendly way. All you need to start is a bib file and a list of keywords for your papers.
 
 Test SurVis with a reference literature database: http://dynamicgraphs.fbeck.com
 
@@ -59,4 +59,4 @@ VISUS, University of Stuttgart
 
 fabian.beck@visus.uni-stuttgart.de
 
-http://research.fbeck.com
+http://research.fbeck.com -->
