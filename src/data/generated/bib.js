@@ -80,15 +80,6 @@
         "type": "INPROCEEDINGS",
         "year": "2022"
     },
-    "Buechel2017EmoBankST": {
-        "abstract": "We describe EmoBank, a corpus of 10k English sentences balancing multiple genres, which we annotated with dimensional emotion metadata in the Valence-Arousal-Dominance (VAD) representation format. EmoBank excels with a bi-perspectival and bi-representational design. On the one hand, we distinguish between writer's and reader's emotions, on the other hand, a subset of the corpus complements dimensional VAD annotations with categorical ones based on Basic Emotions. We find evidence for the supremacy of the reader's perspective in terms of IAA and rating intensity, and achieve close-to-human performance when mapping between dimensional and categorical formats.}.",
-        "author": "Sven Buechel and Udo Hahn",
-        "booktitle": "Conference of the European Chapter of the Association for Computational Linguistics",
-        "title": "EmoBank: Studying the Impact of Annotation Perspective and Representation Format on Dimensional Emotion Analysis",
-        "type": "inproceedings",
-        "url": "https://api.semanticscholar.org/CorpusID:11509125",
-        "year": "2017"
-    },
     "Busso2008IEMOCAP": {
         "abstract": "Since emotions are expressed through a combination of verbal and non-verbal channels, a joint analysis of speech and gestures is required to understand expressive human communication. To facilitate such investigations, this paper describes a new corpus named the \u201cinteractive emotional dyadic motion capture database\u201d (IEMOCAP), collected by the Speech Analysis and Interpretation Laboratory (SAIL) at the University of Southern California (USC). This database was recorded from ten actors in dyadic sessions with markers on the face, head, and hands, which provide detailed information about their facial expressions and hand movements during scripted and spontaneous spoken communication scenarios. The actors performed selected emotional scripts and also improvised hypothetical scenarios designed to elicit specific types of emotions (happiness, anger, sadness, frustration and neutral state). The corpus contains approximately 12 h of data. The detailed motion capture information, the interactive setting to elicit authentic emotions, and the size of the database make this corpus a valuable addition to the existing databases in the community for the study and modeling of multimodal and expressive human communication.}.",
         "author": "C. Busso and M. Bulut and C. C. Lee and E. Kazemzadeh and A. M. Carreras and M. Cristen and I. Cohen and S. Narayanan",
@@ -101,14 +92,27 @@
         "volume": "42",
         "year": "2008"
     },
-    "Fan2021LSSEDAL": {
-        "abstract": "Speech emotion recognition is a vital contributor to the next generation of human-computer interaction (HCI). However, current existing small-scale databases have limited the development of related research. In this paper, we present LSSED, a challenging large-scale english speech emotion dataset, which has data collected from 820 subjects to simulate real- world distribution. In addition, we release some pre-trained models based on LSSED, which can not only promote the development of speech emotion recognition, but can also be transferred to related downstream tasks such as mental health analysis where data is extremely difficult to collect. Finally, our experiments show the necessity of large-scale datasets and the effectiveness of pre-trained models. The dateset will be released on https://github.com/tobefans/LSSED.}.",
-        "author": "Weiquan Fan and Xiangmin Xu and Xiaofen Xing and Weidong Chen and Dongyan Huang",
-        "journal": "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-        "pages": "641-645",
-        "title": "LSSED: A Large-Scale Dataset and Benchmark for Speech Emotion Recognition",
-        "type": "article",
-        "url": "https://api.semanticscholar.org/CorpusID:231786666",
-        "year": "2021"
+    "chen2018emotionlines": {
+        "abstract": "Feeling emotion is a critical characteristic to distinguish people from machines. Among all the multi-modal resources for emotion detection, textual datasets are those containing the least additional information in addition to semantics, and hence are adopted widely for testing the developed systems. However, most of the textual emotional datasets consist of emotion labels of only individual words, sentences or documents, which makes it challenging to discuss the contextual flow of emotions. In this paper, we introduce EmotionLines, the first dataset with emotions labeling on all utterances in each dialogue only based on their textual content. Dialogues in EmotionLines are collected from Friends TV scripts and private Facebook messenger dialogues. Then one of seven emotions, six Ekman\u2019s basic emotions plus the neutral emotion, is labeled on each utterance by 5 Amazon MTurkers. A total of 29,245 utterances from 2,000 dialogues are labeled in EmotionLines. We also provide several strong baselines for emotion detection models on EmotionLines in this paper",
+        "archiveprefix": "arXiv",
+        "author": "S.-Y. Chen, C.-C. Hsu, C.-C. Kuo, T.-H. Huang, and L.-W. Ku",
+        "doi": "https://doi.org/10.48550/arXiv.1802.08379",
+        "eprint": "1802.08379",
+        "primaryclass": "cs.CL",
+        "title": "EmotionLines: An Emotion Corpus of Multi-Party Conversations",
+        "type": "misc",
+        "year": "2018"
+    },
+    "inproceedings": {
+        "abstract": "The article describes a database of emotional speech. Ten actors (5 female and 5 male) simulated the emotions, producing 10 German utterances (5 short and 5 longer sentences) which could be used in everyday communication and are interpretable in all applied emotions. The recordings were taken in an anechoic chamber with high-quality recording equipment. In addition to the sound electro-glottograms were recorded. The speech material comprises about 800 sentences (seven emotions * ten actors * ten sentences + some second versions). The complete database was evaluated in a perception test regarding the recognisability of emotions and their naturalness. Utterances recognised better than 80\\% and judged as natural by more than 60\\% of the listeners were phonetically labelled in a narrow transcription with special markers for voice-quality, phonatory and articulatory settings and articulatory features. The database can be accessed by the public via the internet (http://www.expressive-speech.net/emodb/).",
+        "author": "Burkhardt, Felix and Paeschke, Astrid and Rolfes, M. and Sendlmeier, Walter and Weiss, Benjamin",
+        "doi": "10.21437/Interspeech.2005-446",
+        "journal": "9th European Conference on Speech Communication and Technology",
+        "month": "09",
+        "number": "4",
+        "pages": "1517-1520",
+        "title": "A database of German emotional speech",
+        "type": "inproceedings",
+        "year": "2005"
     }
 }});
